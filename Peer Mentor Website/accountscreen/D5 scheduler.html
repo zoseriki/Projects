@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="D4.css">
+	<title> Scheduler </title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Team Logo" height="110" width="110">
+        <h1>Scheduler</h1>
+        <div class="icon-buttons">
+            <button class="icon-button"><a class="iconb" href="https://swe.umbc.edu/~spark35/is448/deliverable6/homescreen/homescreen.html">&#8592</a></button> <!-- Go Back icon -->
+        </div>
+    </header>
+
+    <!-- This is the start of a section -->
+    <section class="intro">
+		
+		<!-- Slideshow Container-->
+    <div class="container">
+        <div class="schedulerfade ">
+            <img src="calendar.jpeg"
+                 style="width: 100%" />  
+        </div>
+ 
+        <div class="schedulerfade ">
+            <img src="peermentor2.jpg"
+                 style="width: 100%" />      
+        </div>
+		 
+        <div class="schedulerfade ">
+            <img src="peermentor3.jpg"
+                 style="width: 100%" />
+        </div>
+		</div>
+		  <br />
+ 
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+        <span class="loadingcircle"></span>
+        <span class="loadingcircle"></span>
+        <span class="loadingcircle"></span>
+    </div>
+		
+		
+    </section>
+
+
+		<section class="schedule">
+	
+		 <img src="meeting.png" alt="meeting" width="200" height="200">
+        <a href = "schedule_meeting.html"><button>Schedule meeting</button></a>
+		</section>
+	
+	<section class="mentor">
+		 <img src="mentor.png" alt="mentor" width="200" height="200">
+        <a href = "availability.php"><button>Mentor availability</button></a>
+    </section>
+</br>
+</br>
+</br>
+
+    <footer>
+        <img src="logo.png" alt="Team Logo" class="team-logo">
+        <p>Sarmad Ashraf • Akshay Chippada • Savannah Park • Zainab Seriki</p>
+        <hr> <!-- Separation line -->
+        <p>© 2023</p>
+    </footer>
+
+<script>
+let theslidingimages = 0;
+themovingimages(); // slideshow function
+ 
+function themovingimages() {
+    let i;
+ 
+    //array with schedulerfade & loadingcircle
+    let eachimage = document.getElementsByClassName("schedulerfade");
+    let circles = document.getElementsByClassName("loadingcircle");
+ 
+    for (i = 0; i < eachimage.length; i++) {
+        eachimage[i].style.display = "none";
+    }
+ 
+    //Global variable, which increases by 1
+    theslidingimages++;
+ 
+    if (theslidingimages > eachimage.length) {
+        theslidingimages = 1;  }
+ 
+    for (i = 0; i < circles.length; i++) {
+        circles[i].className = circles[i].className.replace(" moving", "");
+    }
+ 
+    eachimage[theslidingimages - 1].style.display = "block";
+    circles[theslidingimages - 1].className += " moving";
+ 
+    // Changes every 4 seconds
+    setTimeout(themovingimages, 4000);
+}
+</script>
+
+</body>
+
+</html>

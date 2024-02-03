@@ -1,0 +1,186 @@
+body {
+	background-color: white;
+	font-size: 18px;
+}
+
+header {
+	background-color: black;
+	color: skyblue;
+	display: flex;
+	/* Make header a flex container */
+	justify-content: space-between;
+	/* Align items on both ends */
+}
+
+#profile-head {
+	font-size: 38px;
+}
+
+h1 {
+	margin-left: -60px;
+	font-size: 46px;
+}
+
+.icon-buttons {
+	display: flex;
+}
+
+.icon-button {
+	border: none;
+	background: none;
+	color: white;
+	font-size: 24px;
+	/* Adjust this to make the icons bigger or smaller */
+}
+
+.name-edit {
+	display: flex;
+}
+
+/* The intro class is used to style the intro section
+ sections of the webpage respectively. */
+.intro {
+	background-color: skyblue;
+	padding: 5px;
+}
+
+/* The intro class is used to style the intro sections 
+of the webpage respectively. */
+.intro {
+	background-color: skyblue;
+	padding: 5px;
+}
+
+.intro img {
+	background-color: transparent;
+	/* Make the image background transparent */
+}
+
+.name-edit {
+	flex-direction: column;
+	/* Stack items vertically */
+}
+
+/* The .profile, .appointment and .password classes are used to style the profile, appointment
+ and password sections of the webpage respectively. */
+.intro{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 3px;
+}
+
+button {
+	font-size: 24px;
+	padding: 5px 10px;
+	/* Adjust this to make the button itself smaller */
+}
+
+body {
+	display: flex;
+	/* Make body a flex container */
+	flex-direction: column;
+	/* Stack items vertically */
+}
+
+
+footer {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	letter-spacing: 1px;
+}
+
+
+.team-logo {
+	width: 60px;
+	height: auto;
+
+}
+
+.info p {
+	border: 1px solid black;
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	/* Add rounded corners */
+}
+
+.name-edit p {
+	border: 1px solid black;
+	padding: 10px 20px;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	/* Add rounded corners */
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* Align intro picture to center */
+}
+
+.schedule{
+
+	width: 200px;
+    float: left;
+	margin-left: 10%;
+	/* Describes size of schedule section */
+}
+
+.mentor{
+	width: 200px;
+   float: left;
+   margin-left: 70%;
+	margin-top: -268.5px;
+	/* Describes size of mentor section */
+}
+
+.iconb{
+	color: white;
+	text-decoration:none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.loadingcircle {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: transparent;
+    border-color: #03f8fc;
+    border-width: 5 px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    transition: border-color 0.7s ease;
+}
+
+img {
+    vertical-align: middle;
+}
+ 
+/* Slideshow */
+.container {
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+}
+ 
+.moving {
+    border-color: #0390fc;
+}
+ 
+
+
+
+
+
+ 

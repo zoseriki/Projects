@@ -1,0 +1,151 @@
+body {
+	background-color: white;
+	font-size: 18px;
+}
+
+header {
+	background-color: black;
+	color: skyblue;
+	display: flex;
+	/* Make header a flex container */
+	justify-content: space-between;
+	/* Align items on both ends */
+}
+
+#profile-head {
+	font-size: 38px;
+}
+
+h1 {
+	margin-left: -60px;
+	font-size: 46px;
+}
+
+.icon-buttons {
+	display: flex;
+	text-decoration:none;
+}
+
+.icon-button {
+	border: none;
+	background: none;
+	color: white;
+	font-size: 24px;
+	text-decoration:none;
+	font-weight:bold;
+	/* Adjust this to make the icons bigger or smaller */
+}
+
+.iconb{
+	color: white;
+	text-decoration:none;
+}
+
+.name-edit {
+	display: flex;
+}
+
+/* The .profile and .appointments classes are used to style the profile and appointments
+ sections of the webpage respectively. */
+.profile,
+.appointments {
+	background-color: skyblue;
+	padding: 5px;
+}
+
+/* The .profile and .password classes are used to style the profile and password sections 
+of the webpage respectively. */
+.profile,
+.password {
+	background-color: skyblue;
+	padding: 5px;
+}
+
+.profile img {
+	background-color: transparent;
+	/* Make the image background transparent */
+}
+
+.name-edit {
+	flex-direction: column;
+	/* Stack items vertically */
+}
+
+/* The .profile, .appointment and .password classes are used to style the profile, appointment
+ and password sections of the webpage respectively. */
+.profile,
+.appointments,
+.password {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 3px;
+}
+
+button {
+	font-size: 14px;
+	padding: 5px 10px;
+	/* Adjust this to make the button itself smaller */
+}
+
+body {
+	display: flex;
+	/* Make body a flex container */
+	flex-direction: column;
+	/* Stack items vertically */
+}
+
+
+footer {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	letter-spacing: 1px;
+}
+
+
+.team-logo {
+	width: 60px;
+	height: auto;
+
+}
+
+.info  {
+	border: 1px solid black;
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	/* Add rounded corners */
+}
+
+.profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+/* Button used to open the update form */
+.openbutton {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  border-radius:5px;
+}
+
+
+/* Add some hover effects to buttons */
+.openbutton:hover {
+  opacity: 1;
+}
+

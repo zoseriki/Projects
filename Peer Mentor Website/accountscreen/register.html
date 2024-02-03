@@ -1,0 +1,44 @@
+<!--Savannah Park-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="logregstyle.css">
+</head>
+<body>
+<header><!--header that can lead user back to home page-->
+        <a href="https://swe.umbc.edu/~spark35/is448/deliverable6/homescreen/homescreen.html"><img src="logo.png" alt="Team Logo" height="110" width="110"></a>
+        <h2>Account</h2>
+
+    </header>
+
+	<h1>Register</h1>
+	<!--form data for submission of register-->
+	<form method="post" action="register.php">
+		<label for="username">Username:</label>
+		<input type="text" name="username" required>
+		
+		<label for="email">Email:</label>
+		<input type="text" name="email" required>
+		
+		<label for="phoneno">Phone No:</label>
+		<input type="text" name="phoneno" required>
+		
+		<label for="major">Major:</label>
+		<input type="text" name="major" required>
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" required>
+
+        <button type="submit" name="register">Register</button>
+        
+        <p>Already have an account? <a href="login.html">Log in here.</a></p>
+        
+        <p>&copy;2023 SASZ</p>
+        
+
+        
+    </form>
+    
+</body>
+</html>

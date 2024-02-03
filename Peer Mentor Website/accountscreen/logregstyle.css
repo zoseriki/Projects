@@ -1,0 +1,85 @@
+/*Savannah Park*/
+		body {
+			font-family: Arial, sans-serif;
+			background-color: skyblue;
+			font-weight:bold;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			font-size:45px;
+		}
+
+		form {
+			width: 450px;
+			margin: 0 auto;
+			background-color: white;
+			padding: 10px;
+			border-radius: 15px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 8px;
+		}
+
+		button[type="submit"] {
+			background-color: #32a8a8;
+			color: white;
+			padding: 14px 20px;
+			border-radius: 15px;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			font-size:12px;
+			font-weight:bold;
+		}
+
+		button[type="submit"]:hover {
+			background-color: #45a094;
+		}
+		
+		input[type="text"],
+		input[type="password"] {
+			width: 90%;
+			padding: 12px 15px;
+			margin-bottom: 25px;
+			border-radius: 15px;
+			border: none;
+			background-color: #f2f2f2;
+		}
+		
+		header {
+			background-color: black;
+			color: skyblue;
+			display: flex;
+			justify-content: space-between;
+			text-align:center;
+		}
+		h2{
+			margin-right:670px;
+			font-size: 46px;
+		}
+
+		.continue{
+			border-radius: 25px;
+			padding: 5px 15px;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: Arial, Verdana, sans-serif;
+			text-decoration:none;
+			text-align:center;
+			margin-top:250px;
+		}
+		
+		.buttoncontinue{
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border-radius: 25px;
+			border: none;
+			cursor: pointer;
+			text-decoration:none;
+		}

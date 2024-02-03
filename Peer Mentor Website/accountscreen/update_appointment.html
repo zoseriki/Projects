@@ -1,0 +1,54 @@
+<!--Sarmad Ashraf-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="begin.css">
+    <title>Update Appointments</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Team Logo" height="110" width="110">
+        <h1>Update Appointments </h1>
+    </header>
+
+    <div class="appointment-buttons">
+        <form action="appointment_history.php" method="post">
+            <input type="submit" value="Check List of Appointments">
+        </form>
+    </div>
+
+    <div>
+        <form action="update_appointment.php" method="post"><br>
+            <label for="appointment_id">Appointment ID:</label><br>
+            <input type="text" id="appointment_id" name="appointment_id" required><br>
+            <label for="appointment_date">Appointment Date:</label><br>
+            <input type="date" id="appointment_date" name="appointment_date" required><br>
+            <label for="appointment_time">Appointment Time:</label><br>
+            <input type="time" id="appointment_time" name="appointment_time" required><br>
+            <label for="appointment_location">Appointment Location:</label><br>
+            <input type="text" id="appointment_location" name="appointment_location" required><br>
+            <label for="appointment_mentor">Appointment Mentor:</label><br>
+            <input type="text" id="appointment_mentor" name="appointment_mentor" required><br><br>
+            <div class="appointment-buttons">
+                <input type="submit" value="Update Appointment">
+            </div>
+            <p><a href="https://swe.umbc.edu/~spark35/is448/deliverable6/accountscreen/account.php">Go
+                    back</a></p>
+        </form>
+
+    </div>
+
+
+    <footer>
+        <img src="logo.png" alt="Team Logo" class="team-logo">
+        <hr> <!-- Separation line -->
+        <p>© 2023</p>
+    </footer>
+
+</body>
+
+</html>

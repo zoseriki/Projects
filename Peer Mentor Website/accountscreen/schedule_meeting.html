@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="begin.css">
+    <title>Schedule meeting</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Team Logo" height="110" width="110">
+        <h1>Schedule meeting </h1>
+    </header>
+
+    <div>
+        <form action="schedule_meeting.php" method="post"><br>
+            <label for="appointment_date">Appointment Date:</label><br>
+            <input type="date" id="appointment_date" name="appointment_date" required><br>
+            <label for="appointment_time">Appointment Time:</label><br>
+            <input type="time" id="appointment_time" name="appointment_time" required><br>
+            <label for="appointment_location">Appointment Location:</label><br>
+            <input type="text" id="appointment_location" name="appointment_location" required><br>
+            <label for="appointment_mentor">Appointment Mentor:</label><br>
+            <input type="text" id="appointment_mentor" name="appointment_mentor" required><br><br>
+            <div class="appointment-buttons">
+                <input type="submit" value="Schedule meeting">
+            </div>
+            <p><a href ="https://swe.umbc.edu/~spark35/is448/deliverable6/accountscreen/D5%20scheduler.html">Go
+                    back</a></p>
+        </form>
+
+    </div>
+
+
+    <footer>
+        <img src="logo.png" alt="Team Logo" class="team-logo">
+        <hr> <!-- Separation line -->
+        <p>© 2023</p>
+    </footer>
+
+</body>
+
+</html>

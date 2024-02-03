@@ -1,0 +1,50 @@
+ body {
+            font-family: sans-serif;
+			background-image: url('color.jpg');
+			background-position: center;
+			background-size: auto;
+			background-attachment: fixed;
+ }
+		
+		.titleStyle{ 
+			text-align: center;
+		}
+        form {
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px dotted #ccc;
+			font-weight: bold;
+			color: #CBC3E3;
+			
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+			margin-top: 10px;
+			
+        }
+
+        input[type=text],
+        input[type=email],
+		input[type=date],
+        textarea {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            padding: 10px;
+            border: 0px solid #ccc;
+            cursor: pointer;
+			color: purple;
+			background-color: gray;
+			font-weight: bold;
+			margin: 20px;
+        }

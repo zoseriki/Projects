@@ -1,0 +1,91 @@
+<!--Savannah Park-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="otherPage.css">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
+	<script>
+	
+        function ajaxclick() {/*using ajax function to request data*/
+            var xhttp = new XMLHttpRequest();//global variable
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {document.getElementById("theajax").innerHTML = this.responseText;//reciever function. (4) means request in finished
+                }
+            };
+            xhttp.open("GET", "randomtext2.txt", true);/*async request*/
+            xhttp.send();
+        }
+	</script>
+<script>
+/*functions for using effects*/		
+function using_blind_up(incoming){
+	new Effect.BlindUp(incoming);
+}
+
+function using_squish(incoming){
+	new Effect.Squish(incoming);
+}
+</script>
+	
+</head>
+
+<body>
+    <header>
+      <h1><center>External Content</center></h1>
+    </header>	
+	
+ <div class="overview">
+ 	    
+		<!--blind up effect-->
+	    <div class = "overviewposition">
+		<div id="sidebar" onclick="using_blind_up(this.id);"><img src= "Tutoring.jpeg" alt= "Tutoring Pic" width="250" height="200"/></div>
+		<a href = "https://academicsuccess.umbc.edu/tutoring/"><p><strong>Tutoring</strong></p></a>
+		</div>
+
+		<div class = "overviewposition">
+        <!-- Squishing effect -->
+		<div id="bar3" onclick="using_squish(this.id);"><img src= "Helpdesk.jpeg" alt= "IT Help Desk Pic" width="250" height="200"/></div>
+		<a href="https://doit.umbc.edu/tsc/"><p><strong>IT Help Desk</strong></p></a>
+		</div>
+		
+		<!--shaking effect-->
+		<div class = "overviewposition">
+		<div id="bar5"> <img src= "instagram.jpg" alt= "Instagram Pic" width="250" height="200" onclick="new Effect.Shake($(this));"/></div>
+		<a href="https://www.instagram.com/"><p><strong>Instagram</strong></p></a>
+		</div>
+		
+</div>
+
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	
+	<section><!--Uses ajaxclick function to request data-->
+	<button type="submit" onclick="ajaxclick()"> Need Assistance? </button>
+		</br>
+		</br>
+		<p id="theajax"></p>
+	<section>
+	
+	</br>
+	</br>
+	</br>
+	
+   <footer>
+        <img src="logo.png" alt="Team Logo" class="team-logo">
+        <p>Sarmad Ashraf • Akshay Chippada • Savannah Park • Zainab Seriki</p>
+        <hr> <!-- Separation line -->
+        <p>© 2023</p>
+    </footer>
+</body>
+</html>
+
+
+
+

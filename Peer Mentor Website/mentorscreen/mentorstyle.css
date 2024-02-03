@@ -1,0 +1,239 @@
+
+/*IS448
+Savannah Park
+css code for deliverable4 & 6*/
+
+
+	h1{/*for name of the screen*/
+		font-size: 46px;
+		font-weight: bold;
+		font-family: Arial, Verdana, sans-serif;
+		text-align: center;
+		text-decoration: underline;
+		color:#3daaf2
+	}
+		h2{/*for company title*/
+		font-size: 46px;
+		font-family: Arial, Verdana, sans-serif;
+		margin:0;
+		text-align:left;
+		padding-right:525px;
+	}
+	
+	a{/*styles the links*/
+	color: white;
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+	
+	header{/*styles the header*/
+		background-color:black;
+		display:flex;
+		justify-content:space-between;
+		color:white;
+		margin:0px;
+		margin-bottom:16px;
+		padding:32px;
+		align-items:center;
+	}
+	
+	nav ul{
+		display:flex;
+		list-style:none;
+		margin:0;
+	}
+	
+	nav ul li{/*styles the buttons*/
+		margin:0;
+		margin-left:16px;
+		border-radius: 25px;
+        background-color: #3daaf2;
+		padding: 5px 15px;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: Arial, Verdana, sans-serif;
+		text-decoration:none;	
+	}
+	
+	nav ul li:hover {
+        background-color: #c2c7c7;	
+      }
+	 
+	.profilementor1{ /*styles the profile for peer mentors*/
+	border: 5px black solid;
+	width:800px;
+	height:150px;
+	padding:5px;
+	margin-top:10px;
+	margin-left:300px;
+	margin-right:100px;
+	background-color:#E8FBFB;
+	font-family: Arial, Verdana, sans-serif;
+	}
+	
+	img.images{ /*styles the image for the profilementor1*/
+	float: left; 
+	width: 100px; 
+	}
+	
+	.mentorname{
+		font-weight:bold;
+		font-size:20px;
+	}
+	
+	form{/*styles the search/filter box*/
+	/*	margin:0;
+		text-align:left;
+		padding-bottom:700px;	*/
+		
+		/*neew testsearch*/
+		margin:auto;
+		width:300px;
+		padding:10px;
+		margin-top:30px;
+		border-radius:10px;
+		box-shadow:0px 0px 10px #aaa;
+		
+		
+		
+	}
+	
+	.totalcontent{/*applies a style to the majority of the content*/
+		display:flex;
+		justify-content:space-between;
+		color:black;
+		margin:0px;
+		margin-bottom:16px;
+		padding:32px;
+		align-items:center;
+		font-family: Arial, Verdana, sans-serif;
+	}
+	
+	.searchfont{
+		font-weight:bold;
+		text-decoration:underline;
+	}
+
+
+footer {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	letter-spacing: 1px;
+}
+
+
+.team-logo {
+	width: 60px;
+	height: auto;
+
+}
+
+.mentorsearch{
+	width:800px;
+	height:800px;
+	background-image: linear-gradient(to bottom, #3ef7dd, #00e0e5, #00c8e6, #00afe0, #1095d1);
+	border-radius:15px;
+	padding:20px;
+	/*display:flex;*/
+	flex-direction:row;
+	align-items:center;
+	overflow-y:scroll;
+}
+
+.mentorsearch::-webkit-scrollbar{
+	display:none;
+}
+
+.mentorsearch form{
+	width:100%;
+	border-radius:25px;
+}
+
+.mentorsearch form input{
+	width:100%;
+	border: none;
+	outline:none;
+	box-shadow:none;
+	font-size:15px;
+	font-weight:500;
+	padding: 9px 1px;
+	background-image: url("searchicon.png");
+}
+/*
+.mentorsearch form i{
+	padding-left: 10px;
+}*/
+
+
+ body{
+	display:flex;
+	 flex-direction:column;
+	 align-items:center;
+	 justify-content:center;
+	 
+ }
+ 
+ .thementor{
+	 display:flex;
+	 align-items:center;
+	 cursor:pointer;
+	 padding-bottom:50px;
+	 border:1px solid white;
+	 border-radius:25px;
+ }
+ /*
+ .thementor img{
+	 width:70px;
+	 height:70px;
+	 object-fit:cover;
+	 border-radious:5px;
+	 
+ }*/
+ 
+ .thementor .mentordetails{
+	 padding-left:15px;
+	 
+ }
+ 
+ .mentorlist{
+	 padding:20px 0;
+ }
+ 
+ 
+ /*this is where im doing the testsearch*/
+ .search{
+	 width:260px;
+	 padding:10px;
+	 border-radius:10px;
+	 border:1px solid thin black;
+	 padding-bottom:5px;
+	
+	 
+ }
+ 
+ .results {
+	 width:100%;
+	 padding-top:4px;
+	 border-radius:2px;
+	 border:solid thin black;
+	 
+ }
+ 
+ 
+ .results div{
+	background-color: yellow;
+ }
+ 
+	.results div:hover{
+	background-color: gray;
+	}
+
+	input{
+		border-radius: 15px;
+	}
+

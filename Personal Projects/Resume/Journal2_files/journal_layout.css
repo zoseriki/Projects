@@ -1,0 +1,40 @@
+.orangeBorder {
+	font-size: 14pts;  
+}
+
+.redBorder {
+	background-color:  #A8F0F0; 
+	text-align: right; 
+}
+
+.purpleBorder{
+	border-bottom: 2px blue dashed; 
+}
+
+.blueBorder {
+	border: 4px #C2E9E9 solid;
+	background-color:  #E8FBFB; 
+	padding: 5px; 
+	margin-top: 10px; 
+}
+
+.greenBorder{
+	border: 10px white solid;
+	background-color: white; 
+}
+
+body {
+	margin-left: 10%; 
+	margin-right: 10%; 
+	background-image: url(https://swe.umbc.edu/~zzaidi1/is448/chap3-examples/lab/background.gif); 
+}
+
+.images {
+	float: right; 
+}
+
+.spacer {
+	clear: right; 
+}
+
+

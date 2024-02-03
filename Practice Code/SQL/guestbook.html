@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <title> Leave me a comment!     </title>
+	<link rel="stylesheet" type="text/css" href="form_proc.css" />
+  </head>
+  <body>
+	<p>Please submit contact info and any comments you may have.</p>
+	<form name ="info" action = "guestbook.php" method="post" >
+		<table>
+			<tr> 
+				<td>Name </td> <td><input type="text" name="name" /> </td> <br /> 
+			</tr>
+			<tr> 
+				<td>Comments </td> <td><textarea name="comments" rows="5" cols="35"> </textarea> </td> <br /> 
+			</tr>
+			<tr> 
+				<td>Phone number</td> <td> <input type="text" name="phone" /> </td> <br /> 
+			</tr>
+			<tr> 
+				<td><input type="submit" value ="Submit Comments" /></td><td></td>
+			</tr>
+		</table>
+	</form>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+	background-color: white;
+	font-size: 18px;
+}
+
+header {
+	font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: black;
+    color: skyblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+	/*margin-left: 80px;*/
+	font-size: 46px;
+
+}
+
+
+
+.overview {
+	display: flex;
+	gap: 110px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 170px;
+}
+
+
+footer {
+	background-color: #f8f9fa;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	letter-spacing: 1px;
+}
+
+
+.team-logo {
+	width: 60px;
+	height: auto;
+
+}
+
+button{
+
+	font-weight:bold;
+	border-radius:5px;
+	padding:7px 7px;
+	background-color:#6fc2e3;
+	border:none;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+button:hover{
+	background-color:#6fd7e3;
+}
+
+
+section{
+	text-align:center;
+}
+
+a{
+	border-radius:2px;
+	background-color:#6fc2e3;
+	text-align: center;
+	text-decoration:none;
+	display: block;
+	padding:1px 1px;
+}
+
+div.overviewposition {
+    float: left;
+    margin: 2px;
+}
+

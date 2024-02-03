@@ -1,0 +1,65 @@
+<!--Zainab Seriki-->
+
+
+<!DOCTYPE html>
+<!-- login.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+
+    <link rel="stylesheet" type="text/css" href="logregstyle.css">
+    <script src="usernameValidation.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="https://swe.umbc.edu/~spark35/is448/deliverable6/homescreen/homescreen.html">
+            <img src="logo.png" alt="Team Logo" height="110" width="110">
+        </a>
+        <h2>Account</h2>
+    </header>
+    <h1>Login</h1>
+    <!-- form data for submission of login -->
+    <form name="myForm" form method="post" action="login.php">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+
+        <button type="submit" name="login">LOGIN</button>
+
+		
+			<!-- Add a link to initiate password reset -->
+	<a href="reset_password.php">Forgot Password?</a>
+	</form>
+
+
+
+
+	<script type="text/javascript">
+ 
+		
+		"use strict";
+
+// when window loads this function will be implemented
+
+window.onload = pageLoad;
+
+function pageLoad() {
+
+    // assigns the validateLoginForm function to the onsubmit event so it will be executed when the form is submitted
+
+    document.querySelector("form").onsubmit = validateLoginForm;
+
+}
+}
+   
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+**************
+     IS 448
+          
+      Initial CSS File for HW2
+**************/ 
+
+      
+
+	/*Code that implements appearance detail 1 in homework handout */
+	body{
+		background-image: url(background.png);
+		font-size: 12pt;
+		font-family:Verdana, Tahoma, sans-serif;
+	}
+	/*Code that implements appearance detail 2 in homework handout */
+	.top{
+		background-image: url(bannerbackground.png);
+		height: 65px;
+	}
+	
+	/*Code that implements appearance detail 3 in homework handout */
+	.movietitle{
+		font-size: 24pt;
+		font-weight: bold;
+		font-family: Tahoma, Verdana, sans-serif;
+		text-align: center;
+	}
+	/*Code that implements appearance detail 4 in homework handout */	
+	.main{
+		width: 1200px;
+		margin: auto;
+	}
+	
+	/*Code that implements appearance detail 5 in homework handout */	
+	.rating{
+		width: 900px;
+		padding:0in;
+		float: left;
+		background-color: rgb(225,214,151);
+        border:2px solid gray;
+	}
+	
+	/*Code that implements appearance detail 6 in homework handout */	
+	.overview{
+		float: right;
+		width: 250px;
+		padding: 10px;
+		background-color: #FFCC00;
+		font-size: 10pt;
+		font-family: Arial, sans-serif;
+	}
+	
+	/* General purpose useful style tag */
+	.imgleft_nopadding{
+		float: left;
+	}	
+	
+	/**********************INSERT YOUR CODE HERE ONWARDS**********************************************/
+	/**************
+     IS 448
+     
+	**************/ 
+	
+	
+	
+/*	A.	In the central section:
+a.	Center the Introduction Paragraph you created in A.1. */
+
+     .centered p {
+     	text-align: center;
+     }
+/* b.	Have them display in blue font (#0000FF).  Add a left-padding of 5px for all <h2> tags. */ 
+    .middlesection h2 {
+    	color: #0000FF;
+    	padding: 5px;
+    }
+
+/* c.	Bold and italicize the Expected Graduation Date in your Education Section */
+    .grad_date {
+    	    font-style: italic;
+    	    font-weight: bold;
+
+    }
+
+/* d.	Underline the Class Number and Class Name*/
+    .class_number {
+    	    color: #FF0000;
+    	    text-decoration: underline;
+    }
+
+/* e.	In the Relevant Classes list: 20px separates the bottom of the class information text and any content below it (such as the next class information) */
+    .space-it {
+    	   margin-bottom: 20px;
+    }
+
+/* f.	The unordered list icons for Skills should display as squares */
+    .display {
+    	   list-style-type: square;
+    }
+
+/* g.	For Work Experience - have your job title and the place you worked at display in bold */
+     .work-experience {
+     	font-weight: bold;
+     }
+/* B.	In the general overview section: 
+a.	Each term in the definition list should be bold and have a .5em of vertical separation between it and the element above and below it. 
+
+*/
+     .gen-section dt {
+     	font-weight: bold;
+     	margin-bottom: .5em;
+     	margin-top: .5em;
+
+     }
+
+
+
+
